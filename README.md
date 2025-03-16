@@ -1,4 +1,4 @@
-##mm Mô tả bảng thống kê GPA  
+## 📌 Mô tả bảng thống kê GPA  
 
 Bảng hiển thị thông tin GPA của sinh viên trên hệ thống **HCMUS Portal** với thiết kế trực quan, dễ nhìn và hiện đại. Dữ liệu được lấy tự động từ trang **Tra cứu Kết quả học tập**, sau đó tính toán và hiển thị GPA dựa trên các tiêu chí sau:  
 
@@ -18,15 +18,18 @@ Bảng hiển thị thông tin GPA của sinh viên trên hệ thống **HCMUS P
 - **Học lại sẽ thay thế điểm cũ**, chỉ tính điểm môn học lần cuối.  
 - **Chuyển đổi sang hệ số 4** dựa trên thang điểm quy chuẩn.  
 
+ **Tương thích với hệ thống HCMUS Portal**, chỉ cần chạy **bookmarklet** trên trình duyệt.  
+
 ---
 
 ## 🛠 Hướng dẫn thêm extension vào trình duyệt  
-### Cách 1: Thêm bằng DevTools (Dành cho người có kinh nghiệm)  
-1. Mở trang **Tra cứu Kết quả học tập** trên trình duyệt.  
-2. Nhấn **F12** để mở **DevTools**.  
-3. Chuyển sang tab **Console**.  
-4. Dán toàn bộ mã **JavaScript** vào và nhấn **Enter**.  
-5. GPA sẽ hiển thị ngay trên trang.  
+### Cài đặt như một Extension trên Chrome  
+1. Tải mã nguồn extension về máy.  
+2. Giải nén thư mục chứa mã nguồn.  
+3. Mở **Chrome** và truy cập `chrome://extensions/`.  
+4. Bật **Developer mode** (chế độ nhà phát triển).  
+5. Nhấn **Load unpacked** (Tải tiện ích không nén) và chọn thư mục đã giải nén.  
+6. Extension sẽ được thêm vào trình duyệt và có thể sử dụng ngay.  
 
 ---
 
