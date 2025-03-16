@@ -1,0 +1,29 @@
+#tbGPA {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dkhp-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.dkhp-table th, .dkhp-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.dkhp-table th {
+    background-color: #063768;
+    color: white;
+}
+#exportCSV {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0090FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#exportCSV:hover {
+    background-color: #0060CD;
+}

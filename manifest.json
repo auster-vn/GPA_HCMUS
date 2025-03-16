@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "KHTN GPA Calculator",
+  "version": "1.0",
+  "description": "Tính GPA và quản lý tín chỉ cho Portal KHTN",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.hcmus.edu.vn/*"],
+      "js": ["jquery.min.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
