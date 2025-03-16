@@ -18,8 +18,6 @@ Bảng hiển thị thông tin GPA của sinh viên trên hệ thống **HCMUS P
 - **Học lại sẽ thay thế điểm cũ**, chỉ tính điểm môn học lần cuối.  
 - **Chuyển đổi sang hệ số 4** dựa trên thang điểm quy chuẩn.  
 
- **Tương thích với hệ thống HCMUS Portal**, chỉ cần chạy **bookmarklet** trên trình duyệt.  
-
 ---
 
 ## 🛠 Hướng dẫn thêm extension vào trình duyệt  
