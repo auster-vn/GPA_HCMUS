@@ -15,8 +15,7 @@ Bảng hiển thị thông tin GPA của sinh viên trên hệ thống **HCMUS P
 - **Chỉ tính các học phần có tín chỉ** (bỏ qua môn không có tín chỉ).  
 - **Không tính các học phần không có điểm** hoặc **điểm dưới 5**.  
 - **Không tính các môn không được đưa vào GPA** như **Giáo dục quốc phòng, Anh văn, Thể dục**,...  
-- **Học lại sẽ thay thế điểm cũ**, chỉ tính điểm môn học lần cuối.  
-- **Chuyển đổi sang hệ số 4** dựa trên thang điểm quy chuẩn.  
+- **Học lại sẽ thay thế điểm cũ**, chỉ tính điểm môn học lần cuối.   
 
 ---
 
