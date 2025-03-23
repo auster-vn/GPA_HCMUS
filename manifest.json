@@ -6,7 +6,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["*://*.hcmus.edu.vn/*"],
+      "matches": ["*://*.hcmus.edu.vn/SinhVien.aspx?pid=211*"],
       "js": ["jquery.min.js", "content.js"],
       "css": ["styles.css"]
     }
