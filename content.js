@@ -151,7 +151,6 @@
                         </thead>
                         <tbody>
                             <tr><td>GPA</td><td>${toFixed(gpa)}</td></tr>
-                            <tr><td>GPA (hệ 4)</td><td>${toFixed(fourGPA)}</td></tr>
                             <tr><td>Tín chỉ tích lũy</td><td>${totalCredits}</td></tr>
                             <tr><td>Số học phần tính trong GPA</td><td>${data.length - removedCoursesSize} học phần</td></tr>
                         </tbody>
